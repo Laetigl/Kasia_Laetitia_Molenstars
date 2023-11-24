@@ -1,0 +1,12 @@
+.section {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(10,25,84);
+
+}
+
+.S3_RAZ {
+
+}

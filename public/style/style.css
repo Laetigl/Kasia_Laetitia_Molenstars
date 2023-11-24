@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(10, 25, 84, 0.924);
+    color: white;
+    background-image: url("./Assets/images/overly-img.png");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.S3_RAZ {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.S3_RAZ p {
+    color: rgb(0, 162, 255);
+}
+
+
+.S3_DWA {
+    display: flex;
+    gap: 15%;
+}
+
+.S3_DWA div {
+    background-color: rgba(240, 248, 255, 0.125);
+    border-radius: 10%;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+}
