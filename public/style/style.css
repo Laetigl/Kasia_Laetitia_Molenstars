@@ -2,21 +2,23 @@ body {
     width: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     
 }
 
-section {
+.Section_3 {
     width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: column;
-    background-color: rgba(10, 25, 84, 0.924);
+    background-color: rgb(10, 25, 84);
     color: white;
-    background-image: url("./Assets/images/overly-img.png");
-    background-size: cover;
     align-items: center;
     justify-content: center;
+    padding-top: 5%;
+    background-size: cover;
+    padding-bottom: 6%;
+    
     
 }
 
@@ -27,25 +29,59 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 1px;
+    padding-bottom: 1%;
    
 }
 
-.S3_RAZ p {
-    color: rgb(0, 162, 255);
+.S3_RAZ h4 {
+    letter-spacing: 2px;
+    color: #549bd6;
 }
 
+
+.S3_RAZ h1 {
+    display: flex;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+}
 
 .S3_DWA {
     display: flex;
-    gap: 15%;
+    gap: 2%;
 }
 
 .S3_DWA div {
-    background-color: rgba(240, 248, 255, 0.125);
+    background-color: rgba(53, 70, 137, 0.233);
     border-radius: 10%;
+    width: 160px;
+    padding: 30px 30px 20px 30px;
+    
+}
+
+.S3_DWA img {
+    width: 70px;
+}
+
+.S3_DWA h4 {
+    text-align: left;
+    
+}
+
+.bouton{
+    padding-top: 3%;
 }
 
 button {
-    display: flex;
-    flex-direction: column;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #0ad3ef;
+    border: none;
+    padding: 10%;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
 }
+
+
