@@ -22,7 +22,7 @@ body {
     
 }
 
-.S3_RAZ {
+.S3_ONE {
     width: 100%;
     height: fit-content;
     display: flex;
@@ -34,25 +34,25 @@ body {
    
 }
 
-.S3_RAZ h4 {
+.S3_ONE h4 {
     letter-spacing: 2px;
     color: #549bd6;
 }
 
 
-.S3_RAZ h1 {
+.S3_ONE h1 {
     display: flex;
     font-size: 30px;
     line-height: 1.2;
     text-align: center;
 }
 
-.S3_DWA {
+.S3_TWO {
     display: flex;
     gap: 2%;
 }
 
-.S3_DWA div {
+.S3_TWO div {
     background-color: rgba(53, 70, 137, 0.233);
     border-radius: 10%;
     width: 160px;
@@ -60,16 +60,16 @@ body {
     
 }
 
-.S3_DWA img {
+.S3_TWO img {
     width: 70px;
 }
 
-.S3_DWA h4 {
+.S3_TWO h4 {
     text-align: left;
     
 }
 
-.bouton{
+.GET_STARTED {
     padding-top: 3%;
 }
 
