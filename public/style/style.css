@@ -6,7 +6,7 @@ body {
     
 }
 
-.Section_5 {
+.Section_6 {
     width: 100%;
     height: fit-content;
     display: flex;
@@ -14,8 +14,6 @@ body {
     color: white;
     align-items: center;
     justify-content: center;
-    padding-top: 5%;
-    background-size: cover;
     padding-bottom: 6%;
     
     
