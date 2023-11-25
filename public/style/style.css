@@ -61,6 +61,11 @@ body{
     border-style: none;
 } 
 
+.buttonContactUs:hover{
+    border: 2px solid rgba(8,212,238,255);
+    background-color:rgba(10,25,84,255) ;
+}
+
 /* ---------------------------------------------- */
 /* Intro */
 .intro{
@@ -188,7 +193,7 @@ body{
 .textPartners h1{
     margin: 0;
     color: white;
-    font-size: 20px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
 
@@ -215,7 +220,6 @@ body{
     border: 1px solid rgba(23,37,110,255);
     background-color: rgba(23,37,110,255);
     border-radius: 10px;
-
 }
 
 .iconPartners img{
@@ -225,12 +229,133 @@ body{
 
     display: flex;
     justify-content: center;
+    transition-duration: 1s;
+}
 
+.iconPartners img:hover{
+    background-color: rgba(8,212,238,255);
+    border-radius: 10px;
+    margin-bottom: 5px; 
+}
 
-    
+/*-- Section2 : Who we are -- */
+.imgWho{
+    width:100%;
+    height: fit-content;
+    padding-bottom: 5%;
+    background-color: rgba(10,25,84,255);
+    display: flex;
+    justify-content: flex-end;
+    gap:3%;
+}
+
+.imgWho p {
+    margin:0;
 
 }
 
+.imgLeftWho{
+    width: 40%;
+    height: fit-content;
+    display: flex;
+
+}
+
+.imgLeftWho img{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    padding-left: 20%;
+
+}
+
+.imgRightdots{
+    width: 15%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.imgRightdots img{
+    width: 80%;
+    height: fit-content;
+    background-position: left;
+
+    display: flex;
+    align-items: center;
+    padding-top:60%;
+    padding-left: 10%;
+
+}
+
+.textWho{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    
+}
+
+.textWho .title{
+    color:rgba(8,212,238,255);
+    font-family: Roboto;
+    margin:0;
+    display: flex;
+    padding-bottom: 4%;
+    letter-spacing: 5px;
+
+}
+
+.descriptionWho{
+    width: 100%;
+    color:white;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriptionWho h1{
+    color:white;
+    font-family: Roboto;
+    font-size: 40px;
+    display: flex;
+    line-height: 40px;
+    padding-bottom: 4%;
+    margin:0;
+}
+
+.introBulletWho {
+    width:100%;
+    margin:0;
+    display: flex;
+    padding-bottom: 4%;
+
+}
+
+.fa-ul {
+    margin:0;
+    padding: 0;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+
+} 
+
+.fa-ul li{
+    margin-left: 5%;
+}
+
+.fa-circle-check{
+content: "\f058";
+}
+
+/* ---------------Media Querries-------------------- */
 /* Tablette */
 @media (min-width:426px) and (max-width:768px){
     .buttonContactUs{
@@ -263,6 +388,7 @@ body{
 @media (min-width:376px) and (max-width:425px){
     .navbarMenu¶{
     font-size: 10px;
+    width: 100%;
     }
 
     .my-link {
@@ -270,16 +396,54 @@ body{
     }
     
     .buttonContactUs{
-        width: 70px;
-        height: 20px;
+        width: 80px;
+        height: 30px;
         font-size: 10px;
     }
+
+    .contactUs{
+        width: 90px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .getStarted{
+        width: 90px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .h1Intro{
+        font-size: 22px;
+    }
+
+    .paragrapheIntro{
+        font-size: 10px;
+    }
+
+    .textPartners h1{
+        font-size: 20px;
+    }
+
 }
 
 /* Mobile M */
 @media (max-width:375px) {
+    .navbarMenu¶{
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        gap:0;
+        }
+    
     .my-link {
         font-size: 10px;
+    }
+
+    .buttonContactUs{
+        width: 60px;
+        height: 20px;
+        font-size: 8px;
     }
 
     .headerNavMenu{
@@ -287,11 +451,36 @@ body{
     }
 
     .h1Intro{
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .textIntro{
         font-size: 15px;
 
     }
+
+    .paragrapheIntro{
+        font-size: 6px;
+    }
+
+    .buttonIntro{
+        gap:5%;
+    }
+    
+    .contactUs{
+        width: 80px;
+        height: 25px;
+        font-size: 8px;
+    }
+
+    .getStarted{
+        width: 80px;
+        height: 25px;
+        font-size: 8px;
+    }
+
+    .textPartners h1{
+        font-size: 15px;
+    }
+
 }
