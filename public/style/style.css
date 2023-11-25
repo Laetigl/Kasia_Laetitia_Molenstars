@@ -10,7 +10,6 @@ body {
     width: 100%;
     height: fit-content;
     display: flex;
-    flex-direction: column;
     background-color: rgb(10, 25, 84);
     color: white;
     align-items: center;
@@ -22,6 +21,11 @@ body {
     
 }
 
+.Section_5BIS {
+    width: 100%;
+    display: flex;
+}
+
 .S5_ONE {
     width: 100%;
     height: fit-content;
@@ -31,6 +35,7 @@ body {
     align-items: center;
     line-height: 1px;
     padding-bottom: 1%;
+    padding-right: 20%;
    
 }
 
@@ -44,33 +49,11 @@ body {
     display: flex;
     font-size: 30px;
     line-height: 1.2;
-    text-align: center;
-}
-
-.S5_TWO {
-    display: flex;
-    gap: 2%;
-}
-
-.S5_TWO div {
-    background-color: rgba(53, 70, 137, 0.233);
-    border-radius: 10%;
-    width: 160px;
-    padding: 30px 30px 20px 30px;
-    
-}
-
-.S5_TWO img {
-    width: 70px;
-}
-
-.S5_TWO h4 {
-    text-align: left;
-    
 }
 
 .GET_STARTED {
     padding-top: 3%;
+    padding-right: 15%;
 }
 
 button {
@@ -83,3 +66,35 @@ button {
     height: 50px;
     border-radius: 5%;
 }
+
+.S5_TWO {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2%;
+    padding-left: 20%;
+}
+
+.S5_TWO div {
+    background-color: rgba(53, 70, 137, 0.233);
+    border-radius: 10%;
+    width: 180px;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.S5_TWO img {
+    width: 70px;
+}
+
+.S5_TWO h4 {
+    text-align: left;
+    
+}
+
