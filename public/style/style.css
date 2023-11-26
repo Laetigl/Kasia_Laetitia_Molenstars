@@ -1,5 +1,6 @@
 body {
     width: 100%;
+    height: fit-content;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -15,7 +16,7 @@ body {
     color: white;
     align-items: center;
     justify-content: center;
-    padding-bottom: 6%;  
+    padding-bottom: 15%;  
 }
 
 
@@ -38,6 +39,16 @@ body {
 }
 
 
+/* .Image_Dots_L {
+    width: 150px;
+}
+
+.Image_Dots_L img {
+    display: flex;
+    width: 100%;
+} */
+
+
 .S6_ONE h4 {
     letter-spacing: 2px;
     color: #549bd6;
@@ -47,7 +58,7 @@ body {
 
 .S6_ONE h1 {
     display: flex;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.2;
     padding-bottom: 0.5%;
 }
@@ -59,7 +70,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20%;
+    padding-bottom: 17%;
    
 }
 
@@ -67,9 +78,9 @@ body {
     display: flex;
     position: absolute;
     z-index: 2;
-    top: 55%;  
-    width: 62%;
-    flex-grow: 1;
+    top: 48%;  
+    width: 53%;
+    /* flex-grow: 1; */
 }
 
 
@@ -79,11 +90,11 @@ body {
 
 .Text_Right {
     width: 50%; 
-    padding-left: 12%;  
+    padding-left: 10%;  
 }
 
 .S6_Texte h5 {
-    font-size: 18px;
+    font-size: 13px;
     opacity: 70%;
     line-height: 10%;
 }
@@ -99,22 +110,24 @@ body {
     border: none;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    padding: 0;
+    font-size: 13px;
     opacity: 70%;
 }
 
 
 .ImageContainer {
     display: flex;
+    width: 70%;
     gap: 3%;
-    position: relative;
     overflow: hidden;
     transition: transform 0.3 ease;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .ImageContainer img {
-    width: 80%;
+    width: 450px;
+    position: relative;
 }
 
 .ImageContainer img:hover {
@@ -147,14 +160,22 @@ body {
 }
 
 
+
+
 .User_Input {
     display: flex;
     flex-direction: column;
     width: 50%;
     flex-wrap: wrap;
     height: auto;
+    font-size: 20px;
+    color: #455ba4;
     
     
+}
+
+.User_Input div {
+    color: #455ba4;
 }
 
 .User_Input input {
@@ -175,8 +196,12 @@ body {
 }
 
 
+.Message input {
+    padding-bottom: 20%;
+}
 
-.SEND {
+
+.SUBMIT {
     padding-top: 3%;
     padding-right: 15%;
     font-family: 'Roboto', sans-serif;
