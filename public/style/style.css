@@ -14,6 +14,7 @@ body {
     color: white;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     
     /* background-repeat: no-repeat;
     background-position: left center; */
@@ -25,6 +26,10 @@ body {
     width: 30%;
     height: 30%;
     transform: rotate(-5deg);
+}
+
+.Image_Back img {
+    margin-right: 10%;
 }
 
 
@@ -56,7 +61,41 @@ body {
     text-align: justify;
 }
 
-.S4_ONE_A {
+
+.S4_ONEBIS {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 10%;
+}
+
+.ProgressBar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+
+  .First_ProgressBar,
+  .Second_ProgressBar,
+  .Third_ProgressBar {
+      width: 20%;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      background: 
+        radial-gradient(closest-side, rgb(10, 25, 84) 79%, transparent 80% 100%),
+        conic-gradient(rgb(105, 188, 255) 85%, rgba(119, 145, 176, 0.196) 0);    
+  }
+  
+  .First_ProgressBar progress,
+  .Second_ProgressBar progress,
+  .Third_ProgressBar progress {
+      visibility: hidden;
+  }
+
+.Paragraphes {
     display: flex;
 }
 
@@ -65,28 +104,24 @@ body {
     display: flex;
     width: 1000px;
     flex-direction: column;
-    position: relative;
 }
 
-.S4_TWO img {
+
+#Image_Working_Girl {
     width: 100%;
+    position: relative;
 }
 
 
 .READ_MORE {
-    width: 80%;
-    height: 30%;
+    width: 23%;
+    height: 32%;
     display: flex;
     flex-direction: column;
     text-align: left;
     position: absolute;
-    top: 50%;
+    top: 68%;
     right: 0;
-    margin: 10%;
-}
-
-#Image_Working_Girl {
-    width: 100%;
 }
 
 
@@ -95,8 +130,9 @@ button {
     color: #ffffff;
     background-color: #0ad3ef;
     border: none;
-    padding: 2%;
-    border-radius: 5%;
+    padding: 1%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
 }
 
 
