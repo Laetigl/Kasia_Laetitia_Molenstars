@@ -50,6 +50,9 @@ body {
 .S3_TWO {
     display: flex;
     gap: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 .S3_TWO div {
@@ -60,8 +63,14 @@ body {
     
 }
 
+
 .S3_TWO img {
     width: 70px;
+    transition: transform 0.3s ease;
+}
+
+.S3_TWO img:hover {
+    transform: translateY(-15px);
 }
 
 .S3_TWO h4 {
