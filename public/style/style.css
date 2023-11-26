@@ -28,7 +28,7 @@ body {
 }
 
 .S5_ONE {
-    width: 100%;
+    width: 50%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -53,7 +53,7 @@ body {
 .S5_ONE p {
     color: #5e74bf;
     line-height: 150%;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* .S5_ONE div h1,
