@@ -217,6 +217,7 @@ body {
 
 .User_Input input {
     background-color: transparent;
+    border-radius: 10px;
     border: 2px solid #455ba49b;
     font-size: 20px;
     color: #455ba4;
@@ -224,7 +225,7 @@ body {
     margin-bottom: 3%;
     width: 100%;
     display: flex;
-    padding: 2% 10% 2% 2%;
+    padding: 1% 10% 1% 2%;
 }
 
 .Input {
@@ -235,6 +236,7 @@ body {
 
 .Message input {
     padding-bottom: 20%;
+    width: 80%;
 }
 
 
@@ -248,13 +250,12 @@ body {
 
 button {
     letter-spacing: 2px;
+    border-radius: 30px;
     color: #ffffff;
     background-color: #0ad3ef;
     border: none;
-    padding: 5%;
-    width: 150px;
-    height: 50px;
-    border-radius: 5%;
+    width: 120px;
+    height: 40px;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
     text-align: center;
