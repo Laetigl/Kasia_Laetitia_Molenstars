@@ -388,8 +388,6 @@ body{
     padding-bottom: 6%;
 
 }
-
-
 .footerTop{
     width: 80%;
     height: auto;
@@ -419,7 +417,6 @@ body{
 .footerAboutUs{
     width: 10%;
     line-height: 200%;
-    padding-right:2%;
 
 }
 
@@ -460,7 +457,7 @@ body{
     border : 2px solid rgba(18,32,97,255);
     border-radius: 5px;
     width:100%;
-    height: 40px;
+    height: auto;
     background-image: url(../src/image/submit-img.png);
     background-repeat: no-repeat;
     background-position: right 10% bottom 45%;
@@ -471,8 +468,6 @@ body{
     border-color:aqua;
 
 }
-
-
 
 ::placeholder{
     color: #4f64ac;
@@ -499,6 +494,16 @@ body{
 
 }
 /* ---------------Media Querries-------------------- */
+/* Laptop */
+/* @media (min-width:769px) and(max-width:1024px) {
+    .footerTop,
+    .backgroundFooter,
+    .iconLeftFooter {
+        width: 1200px !important;
+    }
+    
+} */
+
 /* Tablette */
 @media (min-width:426px) and (max-width:768px){
     .buttonContactUs{
@@ -524,7 +529,18 @@ body{
         align-items: center;
     }
 
+    .footerTop{
+        width:100%;
+    }
 
+    .imgWho{
+        padding-top: 10%;
+    }
+
+    p.introBulletWho{
+        font-size:30px;
+
+    }
 }
 
 /* Mobile L */
@@ -557,7 +573,7 @@ body{
     }
 
     .h1Intro{
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .paragrapheIntro{
@@ -568,8 +584,80 @@ body{
         font-size: 20px;
     }
 
+    .backgroundFooter{
+        padding: 2%;
+        width:96%;
+    }
+    .footerTop{
+        width: 100%;
+        font-size:10px;
+    }
+
+    
+    .iconLeftFooter{
+        width: 35%;
+    }
+
+    .iconLeftFooter p {
+        font-size:10px;
+    }
+
+    .footerAboutUs p{
+        font-size:10px;
+    }
+
+    .footerAboutUs h1{
+        font-size:10px;
+    }
+
+    .footerOurServices p {
+        font-size:10px;
+
+    }
+
+    .footerOurServices h1{
+        font-size:10px;
+    }
+
+    .newsletters p{
+        font-size:10px;
+
+    }
+    .newsletters h1 {
+        font-size:10px;
+
+    }
+
+    ::placeholder {
+        font-size:10px;
+
+    }
+
+    .email input {
+        background-size: 7%;
+    }
+
 }
 
+    .footerBottom{
+        font-size: 10px;
+    }
+
+
+    .descriptionWho h1{
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+    .descriptionWho p{
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    .fa-ul li{
+        font-size: 10px;
+        line-height: 20px;
+    }
 /* Mobile M */
 @media (max-width:375px) {
     .navbarMenu¶{
@@ -626,4 +714,112 @@ body{
         font-size: 15px;
     }
 
+
+
+.descriptionWho h1 {
+    font-size: 20px;
+    line-height: 25px;
+}
+.title {
+    font-size: 10px;
+
+}
+.introBulletWho{
+    font-size: 10px;
+    line-height: 15px;
+
+
+}
+
+.fa-ul{
+    font-size: 10px;
+    line-height: 15px;
+
+ 
+}
+
+.fa-ul img {
+    width: 10%;
+}
+
+.imgWho{
+    padding-top: 8%;
+}
+
+.backgroundFooter{
+    width:96%;
+    padding: 2%;
+    
+}
+
+.footerTop{
+    width: 100%;
+    font-size:10px;
+}
+
+
+.iconLeftFooter{
+    width: 35%;
+}
+
+.iconLeftFooter img {
+    width: 50px;
+}
+
+
+.iconLeftFooter p {
+    font-size:10px;
+}
+
+.footerAboutUs p{
+    font-size:8px;
+}
+
+.footerAboutUs{
+    line-height: 15px;
+}
+
+.footerAboutUs h1{
+    font-size:10px;
+}
+
+.footerOurServices p {
+    font-size:8px;
+}
+
+.footerOurServices{
+    line-height: 15px;
+
+}
+
+.footerOurServices h1{
+    font-size:10px;
+}
+
+.newsletters p{
+    font-size:10px;
+
+}
+.newsletters h1 {
+    font-size:10px;
+
+}
+
+::placeholder {
+    font-size:8px;
+
+}
+
+.email input {
+    background-size: 7%;
+}
+
+.agreement p{
+    font-size:8px;
+
+}
+
+.footerBottom{
+    font-size: 8px;
+}
 }
