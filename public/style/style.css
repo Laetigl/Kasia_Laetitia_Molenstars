@@ -104,12 +104,35 @@ body{
 @media (min-width:426px) and (max-width:768px){
 
 
+    .partners{
+        align-items: center;
+    }
+}
+
 /* Mobile L */
 @media (min-width:376px) and (max-width:425px){
-   
+    .textPartners h1{
+        font-size: 20px;
+    }
+
+    .partners{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .iconPartners{
+        width: 90%;
+        gap:15%;
+
+    }
 }
+
 
 /* Mobile M */
 @media (max-width:375px) {
-    
+    .textPartners h1{
+        font-size: 15px;
+    }
 }
