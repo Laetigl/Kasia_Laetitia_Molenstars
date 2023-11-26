@@ -332,6 +332,7 @@ body{
 .introBulletWho {
     width:100%;
     margin:0;
+    color: #4f64ac;
     display: flex;
     padding-bottom: 4%;
 
@@ -341,6 +342,7 @@ body{
     margin:0;
     padding: 0;
     width:100%;
+    color: #4f64ac;
     display: flex;
     flex-direction: column;
     justify-content:flex-start ;
@@ -348,7 +350,8 @@ body{
 } 
 
 .fa-ul li{
-    margin-left: 5%;
+    list-style: none;
+
 }
 
 .fa-circle-check{
@@ -361,13 +364,16 @@ content: "\f058";
 .backgroundFooter{
     width:100%;
     height: fit-content;
-    color:rgba(18,32,97,255);
+    padding-top:10%;
+    color: #4f64ac;
     font-family: Roboto;
-    background-color:rgba(18,32,97,255);
-    background-image: url(../src/image/banner-overlay-img.png);
+    background-color:rgba(10,25,84);
+    background-size: cover;
+    /* background-image: url(../src/image/banner-overlay-img.png); */
 
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 
@@ -389,18 +395,18 @@ content: "\f058";
 
 
 .footerTop{
-    width: 100%;
-    height: 600px;
+    width: 80%;
+    height: auto;
+    padding-bottom:7%;
     display: flex;
     justify-content: center;
-    gap:5%;
-
+    gap:1%;
 
 }
 
 .iconLeftFooter{
     width: 20%;
-    line-height: 30px;
+    line-height: 150%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -416,43 +422,44 @@ content: "\f058";
 
 .footerAboutUs{
     width: 10%;
-    padding-top: 7%;
-    line-height: 30px;
+    line-height: 200%;
+    padding-right:2%;
+
 }
 
 .footerOurServices{
     width: 15%;
-    padding-top: 7%;
-    line-height: 30px;
+    line-height: 200%;
 
 
 }
 
 .newsletters{
     width: 20%;
-    padding-top: 7%;
+    padding-left:5%;
 
 }
 
 
 .footerBottom{
+    font-size: 14px;
     display: flex;
     justify-content: center;
-
+    padding:1%;
 }
 
 .iconSocial{
-    width:15%;
+    width:25%;
     display: flex;
     gap:25%;
-    padding-top: 4%;
-}
-.iconSocial img{
-    width: 100%;
-    color:white;
 }
 
-input {
+.iconSocial a {
+    text-decoration: none;
+    gap:50%;
+}
+
+.email input{
     background-color: transparent;
     border : 2px solid rgba(18,32,97,255);
     border-radius: 5px;
@@ -463,17 +470,17 @@ input {
     background-position: right 10% bottom 45%;
 }
 
+.newsletter #checkboxBOITE {
+    background-color: transparent;
+    border-color:aqua;
 
-::placeholder{
-    color: rgba(18,32,97,255);
-    font-size: 15px;
 }
 
-#checkbox{
-    background-color: transparent;
-    border: 5px solid rgba(18,32,97,255);
 
-    width: 10%;
+
+::placeholder{
+    color: #4f64ac;
+    font-size: 15px;
 }
 
 
@@ -554,7 +561,7 @@ input {
     }
 
     .h1Intro{
-        font-size: 22px;
+        font-size: 50px;
     }
 
     .paragrapheIntro{
