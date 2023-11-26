@@ -1,169 +1,28 @@
 body{
     width: 100vw;
     /* height: fit-content ; */
+    font-family: 'Roboto',sans-serif;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
-.headerNavMenu{
-    width:100%;
-    padding-top:20px;
-    /* height:fit-content; */
-    background-image: url(../src/image/banner-overlay-img.png);
+/* ------------------------------- */
+/* Section1- Partners */
 
-    background-color: rgba(10,25,84,255);
-    background-size: cover;  
-  
-}
-
-.navbar{
+.sectionOne{
     width: 100%;
-    height: max-content;
-    color:white;
-    font-family: Roboto;
-
-    display: flex;
-    align-items: center;  
-}
-
-.navbarIcon{
-    width: 20%;
-    display: flex;
-    justify-content: center;
-}
-
-.iconLogo{
-    width: 30%;
-}
-
-.navbarMenu{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    gap:3.5%;
-}
-
-.my-link{
-    text-decoration: none;
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.buttonContactUs{
-    width:120px;
-    height: 40px;
-    font-size: 15px;
-    color:white;
-    background-color: rgba(12,210,238,255);
-    border-radius: 30px;
-    border-style: none;
-} 
-
-/* ---------------------------------------------- */
-/* Intro */
-.intro{
-    width: 100%;
-    height:fit-content;
-    padding-top: 5%;
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.textIntro{
-    width:40% ;    
-    padding-top:5%;
-    padding-bottom: 5%;
-    /* padding: 30px 0px 30px 60px; */
-    margin-left: 10%;
-    font-family: Roboto;
-    
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
-.h1Intro{
-    font-size: 30px;
-    width: 100%;
-}
-
-.paragrapheIntro{
-    font-size: 12px;
-    font-style: lighter;
-    width: 80%;
-
-}
-
-.bannerRight{
-    width: 50%;
-    margin-right: 10%;
-    display: flex;
-    justify-content: center;
-}
-
-
-.bannerRight img{
-    width: 100%;
-    height: 100%;
-    padding-right:5%;
-    display: flex;
-}
-
-.buttonIntro{
-    display: flex;
-    gap:20px;
-}
-
-.getStarted{
-    width:120px;
-    height: 40px;
-    font-size: 15px;
-    color:white;
-    background-color: rgba(8,212,238,255);
-    border-radius: 30px;
-    border-style: none;
-}
-
-.getStarted:hover{
-    border: 2px solid rgba(8,212,238,255);
-    background-color:rgba(10,25,84,255) ;
-
-}
-
-.contactUs{
-    width:120px;
-    height: 40px;
-    font-size: 15px;
-    color:white;
-    background-color: rgba(33,82,161,255);
-    border-radius: 30px;
-    border-style: none;
-}
-
-.contactUs:hover{
-    border:2px solid rgba(8,212,238,255);
-    background-color:rgba(10,25,84,255)
-}
-
-
-/* ------------------------------- */
-/* Section1- Partners */
 .partners{
     width: 100%;
     margin:0;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     background-color:rgba(10,25,84,255) ;
     font-family: Roboto;
-    
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
 }
 
@@ -188,7 +47,7 @@ body{
 .textPartners h1{
     margin: 0;
     color: white;
-    font-size: 20px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
 
@@ -202,6 +61,7 @@ body{
     flex-wrap: wrap;
     padding-bottom: 6%;
     padding-top: 3%;
+    background-color:rgba(10,25,84,255) ;
 
     gap:5%;
 }
@@ -215,83 +75,41 @@ body{
     border: 1px solid rgba(23,37,110,255);
     background-color: rgba(23,37,110,255);
     border-radius: 10px;
-
 }
 
 .iconPartners img{
     width: 50px;
     height: 50px;
     padding: 20px;
-
     display: flex;
     justify-content: center;
-
-
-    
-
+    transition-duration: 1s;
 }
+
+.sectionOne img{
+    background-color: rgba(53,70,137,0.233);
+    border-radius: 10px;
+    transition: transform 0.3 ease-in-out;
+}
+.sectionOne img:hover{
+    background-color: rgba(8,212,238,255);
+    border-radius: 10px;
+    margin-bottom: 5px; 
+    transform: translateY(-10px);
+}
+
+
 
 /* Tablette */
 @media (min-width:426px) and (max-width:768px){
-    .buttonContactUs{
-        width: 100px;
-        height: 30px;
-    }
 
-    .contactUs{
-        width: 100px;
-        height: 30px;
-    }
-
-    .getStarted{
-        width: 100px;
-        height: 30px;
-    }
-
-    .iconPartners{
-        width: 50%;
-    }
-
-    .partners{
-        align-items: center;
-    }
-
-
-}
 
 /* Mobile L */
 @media (min-width:376px) and (max-width:425px){
-    .navbarMenu¶{
-    font-size: 10px;
-    }
-
-    .my-link {
-        font-size: 10px;
-    }
-    
-    .buttonContactUs{
-        width: 70px;
-        height: 20px;
-        font-size: 10px;
-    }
+   
 }
 
 /* Mobile M */
 @media (max-width:375px) {
-    .my-link {
-        font-size: 10px;
-    }
-
-    .headerNavMenu{
-        width: auto;
-    }
-
-    .h1Intro{
-        font-size: 25px;
-    }
-
-    .textIntro{
-        font-size: 15px;
-
-    }
+    
 }
