@@ -27,15 +27,14 @@ body {
 }
 
 .S5_ONE {
-    width: 100%;
+    width: 90%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    line-height: 1px;
     padding-bottom: 1%;
     padding-right: 20%;
+    /* line-height: 1.2%; */
    
 }
 
@@ -51,6 +50,12 @@ body {
     line-height: 1.2;
 }
 
+.S5_ONE p {
+    color: #5e74bf;
+}
+
+
+
 .GET_STARTED {
     padding-top: 3%;
     padding-right: 15%;
@@ -61,17 +66,21 @@ button {
     color: #ffffff;
     background-color: #0ad3ef;
     border: none;
-    padding: 10%;
+    padding: 2%;
     width: 150px;
     height: 50px;
     border-radius: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .S5_TWO {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    gap: 2%;
+    gap: 4%;
     padding-left: 20%;
 }
 
@@ -80,17 +89,17 @@ button {
     border-radius: 10%;
     width: 180px;
     height: auto;
-    padding: 20px 20px 20px 20px;
+    padding: 5% 5% 5% 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 5%;
     
 }
 
 .S5_TWO img {
-    width: 70px;
+    width: 50px;
 }
 
 .S5_TWO h4 {
