@@ -1,6 +1,7 @@
 body {
     width: 100%;
-    margin: 0;
+    height: fit-content;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
     
@@ -95,7 +96,7 @@ button {
 .S5_TWO div {
     background-color: rgba(53, 70, 137, 0.233);
     border-radius: 10%;
-    width: 30%;
+    width: 150px;
     height: auto;
     padding: 5% 5% 5% 5%;
     display: flex;
