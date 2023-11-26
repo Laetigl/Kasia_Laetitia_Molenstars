@@ -84,7 +84,7 @@ body {
 
   .First_ProgressBar,
   .Second_ProgressBar,
-  .Third_ProgressBar {
+  .Third_ProgressBar { 
       width: 20%;
       border-radius: 50%;
       display: flex;
@@ -116,7 +116,7 @@ body {
 .S4_TWO {
     display: flex;
     width: 1000px;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 
@@ -129,9 +129,7 @@ body {
     width: 100%;
 }
 
-#Image_Working_Girl {
-    width: 100%;
-}
+
 
 .READ_MORE {
     width: 23%;
