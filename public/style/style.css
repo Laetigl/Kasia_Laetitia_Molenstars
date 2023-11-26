@@ -115,11 +115,39 @@ body {
 }
 
 
+.Text_Left h5:hover {
+    color: aqua;
+}
+
+.Text_Left h2:hover {
+    color: aqua;
+}
+
+.Text_Left button:hover {
+    color: aqua;
+}
+
+
+.Text_Right h5:hover {
+    color: aqua;
+}
+
+.Text_Right h2:hover {
+    color: aqua;
+}
+
+.Text_Right button:hover {
+    color: aqua;
+}
+
+
+
 .ImageContainer {
     display: flex;
     width: 70%;
     gap: 3%;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
     transition: transform 0.3 ease;
     flex-wrap: wrap;
     justify-content: center;
@@ -130,9 +158,18 @@ body {
     position: relative;
 }
 
-.ImageContainer img:hover {
-    transform: rotate(10deg) scale(1.1);
+
+.IC1 img:hover {
+    overflow: hidden;
+    transform: rotate(2deg) scale(1.1);
 }
+
+.IC2 img:hover {
+    overflow: hidden;
+    transform: rotate(2deg) scale(1.1);
+}
+
+
 
 
 .S6_TWO {
@@ -180,7 +217,7 @@ body {
 
 .User_Input input {
     background-color: transparent;
-    border-color: #455ba49b;
+    border: 2px solid #455ba49b;
     font-size: 20px;
     color: #455ba4;
     margin-right: 5%;
