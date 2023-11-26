@@ -332,6 +332,7 @@ body{
 .introBulletWho {
     width:100%;
     margin:0;
+    color: #4f64ac;
     display: flex;
     padding-bottom: 4%;
 
@@ -341,6 +342,7 @@ body{
     margin:0;
     padding: 0;
     width:100%;
+    color: #4f64ac;
     display: flex;
     flex-direction: column;
     justify-content:flex-start ;
@@ -348,11 +350,8 @@ body{
 } 
 
 .fa-ul li{
-    margin-left: 5%;
-}
+    list-style: none;
 
-.fa-circle-check{
-content: "\f058";
 }
 
 /* ---------------Media Querries-------------------- */
