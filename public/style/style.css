@@ -16,7 +16,7 @@ body {
     justify-content: center;
     padding-top: 9%;
     background-size: cover;
-    padding-bottom: 5%;
+    padding-bottom: 9%;
     
     
 }
@@ -45,7 +45,7 @@ body {
 
 .S5_ONE h1 {
     display: flex;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 1.2;
 }
 
@@ -86,8 +86,8 @@ button {
 .S5_TWO {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    padding-left: 10%;
+    width: 70%;
+    padding-left: 20%;
     gap: 5%;
     /* justify-content: space-between; - Mobile screen */
 }
