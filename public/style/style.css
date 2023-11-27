@@ -8,7 +8,8 @@ body {
 }
 
 .Section_5 {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     height: fit-content;
     display: flex;
     background-color: rgb(10, 25, 84);
@@ -28,12 +29,12 @@ body {
 }
 
 .S5_ONE {
-    width: 50%;
+    width: 70%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 10%;
+    padding-right: 18%;
     /* line-height: 1.2%; */
    
 }
@@ -45,6 +46,7 @@ body {
 
 
 .S5_ONE h1 {
+    margin-top: -1%;
     display: flex;
     font-size: 40px;
     line-height: 1.2;
@@ -54,6 +56,7 @@ body {
     color: #5e74bf;
     line-height: 150%;
     font-size: 16px;
+    margin-top: -2%;
 }
 
 /* .S5_ONE div h1,
@@ -131,3 +134,30 @@ button {
     margin-bottom: 5%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1440px) {
+    .Section_5 {
+        height: 100vh;
+        margin-top: -8%;
+    }
+}
+
+
+
+@media only screen and (min-width: 425px) {
+    .Section_5 {
+        height: fit-content;
+        margin-top: -8%;
+    }
+}
