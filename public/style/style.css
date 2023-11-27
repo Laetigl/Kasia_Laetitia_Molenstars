@@ -1,6 +1,7 @@
 body{
     width: 100vw;
     /* height: fit-content ; */
+    font-family: 'Roboto',sans-serif;
     margin: 0;
     padding:0;
     font-family: 'Roboto', sans serif;
@@ -139,6 +140,17 @@ body{
     align-items: center;
 }
 
+.sectionOne img{
+    background-color: rgba(53,70,137,0.233);
+    border-radius: 10px;
+    transition: transform 0.3 ease-in-out;
+}
+.sectionOne img:hover{
+    background-color: rgba(8,212,238,255);
+    border-radius: 10px;
+    margin-bottom: 5px; 
+    transform: translateY(-10px);
+}
 
 .line{
     width: 100%;
@@ -203,6 +215,7 @@ body{
         font-size:10px;
 
     }
+
 
     ::placeholder {
         font-size:10px;
