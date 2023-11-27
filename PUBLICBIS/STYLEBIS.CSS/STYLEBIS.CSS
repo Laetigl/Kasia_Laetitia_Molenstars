@@ -1,0 +1,739 @@
+
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.Section4 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    height: fit-content;
+    background-color: rgb(10, 25, 84);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    
+    /* background-repeat: no-repeat;
+    background-position: left center; */
+}
+
+.Image_Back {
+    display: flex;
+    justify-content: center;
+    width: 22%;
+    transform: rotate(-5deg);
+}
+
+.Image_Back img {
+    margin-right: 400%;
+    width: 70%;
+}
+
+
+.S4_ONE {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto; /* auto - centrer avec margin auto */
+    padding-right: 2%;
+    margin-top: -17%;
+}
+
+.INTRO {
+    width:100%;
+}
+
+
+.S4_ONE h4 {
+    letter-spacing: 2px;
+    color: #549bd6;
+}
+
+
+.S4_ONE h1 {
+    display: flex;
+    font-size: 35px; /* 20px - taille de la police pour les petits écrans */
+    line-height: 1.2;
+}
+
+.S4_ONE p {
+    color: #6a7cbd;
+    text-align: justify;
+    line-height: 150%;
+}
+
+
+.S4_ONEBIS {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ProgressBar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -7%; */
+}
+
+.ProgressBar div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 3% 1% 5%;
+    width: 20%;
+}
+
+.ProgressBar div {
+    /* position: relative; - SVG CIRCLE PROGRESSBAR */
+    /* width: 70px;  - SVG CIRCLE PROGRESSBAR
+    height: 70px;  - SVG CIRCLE PROGRESSBAR */
+    width: 15%; 
+    height: auto;
+    /* width: 80px;
+    height: 100px; */
+}
+
+/* .ProgressBar svg { SVG CIRCLE PROGRESSBAR
+    position: absolute; - SVG CIRCLE PROGRESSBAR
+    width: 100%;
+    height: 100%;
+} */
+
+.ProgressBar h2 {
+    display: flex;
+    padding-right: 15%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
+    /* position: absolute; - SVG CIRCLE PROGRESSBAR */
+}
+
+
+
+  .First_ProgressBar { 
+      width: 70px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      background: 
+        radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 80% 100%),
+        conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+  }
+
+  .Second_ProgressBar { 
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background: 
+      radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 78% 100%),
+      conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+}
+
+
+.Third_ProgressBar { 
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background: 
+      radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 64% 100%),
+      conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+}
+  
+  .First_ProgressBar progress,
+  .Second_ProgressBar progress,
+  .Third_ProgressBar progress {
+      visibility: hidden;
+  }
+
+
+
+
+
+
+.Paragraphes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13%;
+    margin-top: -1%;
+
+}
+
+.Paragraphes p {
+    color: white;
+}
+
+
+
+
+
+
+
+.S4_TWO {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+
+.Image_Working_Girl {
+    position: relative;
+    width: 990px;
+    margin-top: -79%;
+    margin-left: 37%;
+}
+
+.Image_Working_Girl img {
+    height: 100vh;
+}
+
+
+
+.READ_MORE {
+    width: 23%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    top: 65%;
+    right: 0;
+    padding-top: 2%;
+    padding-left: 2%;
+    line-height: 10%;
+}
+
+.READ_MORE p {
+    line-height: 150%;
+    margin-top: -1%;
+}
+
+button {
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #0ad3ef;
+    border: none;
+    padding: 1%;
+    border-top-left-radius: 5%;
+}
+
+
+
+.READ_MORE img {
+    width: 20%;
+}
+
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.Section4 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    height: fit-content;
+    background-color: rgb(10, 25, 84);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    
+    /* background-repeat: no-repeat;
+    background-position: left center; */
+}
+
+.Image_Back {
+    display: flex;
+    justify-content: center;
+    width: 22%;
+    transform: rotate(-5deg);
+}
+
+.Image_Back img {
+    margin-right: 400%;
+    width: 70%;
+}
+
+
+.S4_ONE {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto; /* auto - centrer avec margin auto */
+    padding-right: 2%;
+    margin-top: -17%;
+}
+
+.INTRO {
+    width:100%;
+}
+
+
+.S4_ONE h4 {
+    letter-spacing: 2px;
+    color: #549bd6;
+}
+
+
+.S4_ONE h1 {
+    display: flex;
+    font-size: 35px; /* 20px - taille de la police pour les petits écrans */
+    line-height: 1.2;
+}
+
+.S4_ONE p {
+    color: #6a7cbd;
+    text-align: justify;
+    line-height: 150%;
+}
+
+
+.S4_ONEBIS {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ProgressBar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -7%; */
+}
+
+.ProgressBar div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 3% 1% 5%;
+    width: 20%;
+}
+
+.ProgressBar div {
+    /* position: relative; - SVG CIRCLE PROGRESSBAR */
+    /* width: 70px;  - SVG CIRCLE PROGRESSBAR
+    height: 70px;  - SVG CIRCLE PROGRESSBAR */
+    width: 15%; 
+    height: auto;
+    /* width: 80px;
+    height: 100px; */
+}
+
+/* .ProgressBar svg { SVG CIRCLE PROGRESSBAR
+    position: absolute; - SVG CIRCLE PROGRESSBAR
+    width: 100%;
+    height: 100%;
+} */
+
+.ProgressBar h2 {
+    display: flex;
+    padding-right: 15%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
+    /* position: absolute; - SVG CIRCLE PROGRESSBAR */
+}
+
+
+
+  .First_ProgressBar { 
+      width: 70px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      background: 
+        radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 80% 100%),
+        conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+  }
+
+  .Second_ProgressBar { 
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background: 
+      radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 78% 100%),
+      conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+}
+
+
+.Third_ProgressBar { 
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background: 
+      radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 64% 100%),
+      conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+}
+  
+  .First_ProgressBar progress,
+  .Second_ProgressBar progress,
+  .Third_ProgressBar progress {
+      visibility: hidden;
+  }
+
+
+
+
+
+
+.Paragraphes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13%;
+    margin-top: -1%;
+
+}
+
+.Paragraphes p {
+    color: white;
+}
+
+
+
+
+
+
+
+.S4_TWO {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+
+.Image_Working_Girl {
+    position: relative;
+    width: 990px;
+    margin-top: -79%;
+    margin-left: 37%;
+}
+
+.Image_Working_Girl img {
+    height: 100vh;
+}
+
+
+
+.READ_MORE {
+    width: 23%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    top: 65%;
+    right: 0;
+    padding-top: 2%;
+    padding-left: 2%;
+    line-height: 10%;
+}
+
+.READ_MORE p {
+    line-height: 150%;
+    margin-top: -1%;
+}
+
+button {
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #0ad3ef;
+    border: none;
+    padding: 1%;
+    border-top-left-radius: 5%;
+}
+
+
+
+.READ_MORE img {
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.Section4 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    height: fit-content;
+    background-color: rgb(10, 25, 84);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    
+    /* background-repeat: no-repeat;
+    background-position: left center; */
+}
+
+.Image_Back {
+    display: flex;
+    justify-content: center;
+    width: 22%;
+    transform: rotate(-5deg);
+}
+
+.Image_Back img {
+    margin-right: 400%;
+    width: 70%;
+}
+
+
+.S4_ONE {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto; /* auto - centrer avec margin auto */
+    padding-right: 2%;
+    margin-top: -17%;
+}
+
+.INTRO {
+    width:100%;
+}
+
+
+.S4_ONE h4 {
+    letter-spacing: 2px;
+    color: #549bd6;
+}
+
+
+.S4_ONE h1 {
+    display: flex;
+    font-size: 35px; /* 20px - taille de la police pour les petits écrans */
+    line-height: 1.2;
+}
+
+.S4_ONE p {
+    color: #6a7cbd;
+    text-align: justify;
+    line-height: 150%;
+}
+
+
+.S4_ONEBIS {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ProgressBar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -7%; */
+}
+
+.ProgressBar div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 3% 1% 5%;
+    width: 20%;
+}
+
+.ProgressBar div {
+    /* position: relative; - SVG CIRCLE PROGRESSBAR */
+    /* width: 70px;  - SVG CIRCLE PROGRESSBAR
+    height: 70px;  - SVG CIRCLE PROGRESSBAR */
+    width: 15%; 
+    height: auto;
+    /* width: 80px;
+    height: 100px; */
+}
+
+/* .ProgressBar svg { SVG CIRCLE PROGRESSBAR
+    position: absolute; - SVG CIRCLE PROGRESSBAR
+    width: 100%;
+    height: 100%;
+} */
+
+.ProgressBar h2 {
+    display: flex;
+    padding-right: 15%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
+    /* position: absolute; - SVG CIRCLE PROGRESSBAR */
+}
+
+
+
+  .First_ProgressBar { 
+      width: 70px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      background: 
+        radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 80% 100%),
+        conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+  }
+
+  .Second_ProgressBar { 
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background: 
+      radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 78% 100%),
+      conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+}
+
+
+.Third_ProgressBar { 
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background: 
+      radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 64% 100%),
+      conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+}
+  
+  .First_ProgressBar progress,
+  .Second_ProgressBar progress,
+  .Third_ProgressBar progress {
+      visibility: hidden;
+  }
+
+
+
+
+
+
+.Paragraphes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13%;
+    margin-top: -1%;
+
+}
+
+.Paragraphes p {
+    color: white;
+}
+
+
+
+
+
+
+
+.S4_TWO {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+
+.Image_Working_Girl {
+    position: relative;
+    width: 990px;
+    margin-top: -79%;
+    margin-left: 37%;
+}
+
+.Image_Working_Girl img {
+    height: 100vh;
+}
+
+
+
+.READ_MORE {
+    width: 23%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    top: 65%;
+    right: 0;
+    padding-top: 2%;
+    padding-left: 2%;
+    line-height: 10%;
+}
+
+.READ_MORE p {
+    line-height: 150%;
+    margin-top: -1%;
+}
+
+button {
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #0ad3ef;
+    border: none;
+    padding: 1%;
+    border-top-left-radius: 5%;
+}
+
+
+
+.READ_MORE img {
+    width: 20%;
+}
+
+
