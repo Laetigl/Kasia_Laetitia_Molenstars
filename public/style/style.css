@@ -166,7 +166,7 @@ body{
     padding-top: 3%;
     background-color:rgba(10,25,84,255) ;
 
-
+}
 .agreement{
     display: flex;
     gap:2%;
@@ -273,6 +273,19 @@ body{
     transform: translateY(-10px);
 }
 
+}
+
+/*-- Section2 : Who we are -- */
+.imgWho{
+    width:100%;
+    height: fit-content;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    background-color: rgba(10,25,84,255);
+    display: flex;
+    justify-content: flex-end;
+    gap:3%;
+}
 
 
 /* Tablette */
@@ -321,6 +334,12 @@ body{
     width: 50px;
 }
 
+.introBulletWho {
+    width:100%;
+    margin:0;
+    color: #4f64ac;
+    display: flex;
+    padding-bottom: 4%;
 
 .iconLeftFooter p {
     font-size:10px;
@@ -378,6 +397,7 @@ body{
     font-size: 8px;
 }
 }
+}
 
 /* Mobile L */
 @media (min-width:376px) and (max-width:425px){
@@ -405,4 +425,83 @@ body{
     .textPartners h1{
         font-size: 15px;
     }
+.fa-ul {
+    margin:0;
+    padding: 0;
+    width:100%;
+    color: #4f64ac;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+
+} 
+
+.fa-ul li{
+    list-style: none;
+
+}
+
+/* ---------------Media Querries-------------------- */
+/* Tablette */
+@media (min-width:426px) and (max-width:768px){
+    .imgWho{
+        padding-top: 10%;
+    }
+
+}
+
+/* Mobile L */
+@media (min-width:376px) and (max-width:425px){
+      .descriptionWho h1{
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+    .descriptionWho p{
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    .fa-ul li{
+        font-size: 10px;
+        line-height: 20px; 
+}
+}
+}
+/* Mobile M */
+@media (max-width:375px) {
+    
+
+
+.descriptionWho h1 {
+    font-size: 20px;
+    line-height: 25px;
+}
+.title {
+    font-size: 10px;
+
+}
+
+.introBulletWho{
+    font-size: 10px;
+    line-height: 15px;
+
+
+}
+
+.fa-ul{
+    font-size: 10px;
+    line-height: 15px;
+
+ 
+}
+
+.fa-ul img {
+    width: 10%;
+}
+
+.imgWho{
+    padding-top: 8%;
+}
+
 }
