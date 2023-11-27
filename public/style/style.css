@@ -146,11 +146,15 @@ body{
 
 }
 /* ---------------Media Querries-------------------- */
+/* Laptop */
+/* @media (min-width:769px) and(max-width:1024px) {
+ */
 
 /* Tablette */
 @media (min-width:426px) and (max-width:768px){
     .footerTop{
         width:100%;
+        font-size: 12px;
     }
 
 }
@@ -231,6 +235,10 @@ body{
     width: 35%;
 }
 
+.iconLeftFooter p{
+    font-size:5px;
+
+}
 .iconLeftFooter img {
     width: 50px;
 }
