@@ -23,11 +23,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top:2%;
-    padding-bottom: 5%;
-    /* height:fit-content; */
-    background-image: url(../src/image/banner-overlay-img.png);
-
 }
 
 .backgroundFooter h1, p{
@@ -40,9 +35,6 @@ body{
 }
 
 .backgroundFooter h1{
-.navbar{
-    width: 100%;
-    height: max-content;
     color:white;
     font-size: 20px;
     padding-bottom: 6%;
@@ -72,9 +64,6 @@ body{
     display: flex;
     padding-bottom: 5%;
     justify-content: flex-start;
-.iconLogo{
-    width: 30%;
-    padding-left: 25%;
 }
 
 .footerAboutUs{
@@ -102,29 +91,6 @@ body{
     display: flex;
     justify-content: center;
     padding:1%;
-    padding: 0;
-    justify-content: flex-start;
-    gap:3.5%;
-}
-
-/* ------------------------------- */
-/* Section1- Partners */
-
-.sectionOne{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.partners{
-    width: 100%;
-    margin:0;
-    padding-top: 5%;
-    padding-bottom: 2%;
-    background-color:rgba(10,25,84,255) ;
-    font-family: Roboto;
-
 }
 
 .iconSocial{
@@ -159,48 +125,8 @@ body{
     color: #4f64ac;
     font-size: 15px;
 }
-.textPartners h1{
-    margin: 0;
-    color: white;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
 
-}
 
-.iconPartners{
-    max-width: 100%;
-.buttonContactUs{
-    width:120px;
-    height: 40px;
-    font-size: 15px;
-    color:white;
-    background-color: rgba(12,210,238,255);
-    border-radius: 30px;
-    border-style: none;
-} 
-
-.buttonContactUs:hover{
-    border: 2px solid rgba(8,212,238,255);
-    background-color:rgba(10,25,84,255) ;
-}
-
-/* ---------------------------------------------- */
-/* Intro */
-.intro{
-    width: 100%;
-    height:fit-content;
-    padding-top: 2%;
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-bottom: 6%;
-    padding-top: 3%;
-    background-color:rgba(10,25,84,255) ;
-
-}
 .agreement{
     display: flex;
     gap:2%;
@@ -208,36 +134,16 @@ body{
 }
 
 .agreement p {
-.textIntro{
-    width:40% ;    
-    padding-top:5%;
-    padding-bottom: 5%;
-    /* padding: 30px 0px 30px 60px; */
-    margin-left: 20%;
-    font-family: Roboto;
-    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.sectionOne img{
-    background-color: rgba(53,70,137,0.233);
-    border-radius: 10px;
-    transition: transform 0.3 ease-in-out;
-}
-.sectionOne img:hover{
-    background-color: rgba(8,212,238,255);
-    border-radius: 10px;
-    margin-bottom: 5px; 
-    transform: translateY(-10px);
-}
 
 .line{
     width: 100%;
     border: 0.1px solid rgba(18,32,97,255) ;
 
-    margin:0;
 }
 /* ---------------Media Querries-------------------- */
 /* Laptop */
@@ -250,12 +156,6 @@ body{
         width:100%;
         font-size: 12px;
     }
-.paragrapheIntro{
-    font-size: 12px;
-    font-style: lighter;
-    line-height: 30px;
-    width: 80%;
-    color: #9eaee3;
 
 
 /* Mobile L */
@@ -300,53 +200,8 @@ body{
     }
     .newsletters h1 {
         font-size:10px;
-.iconPartners img{
-    width: 50px;
-    height: 50px;
-    padding: 20px;
-}
-
-.bannerRight{
-    width: 50%;
-    margin-right: 10%;
-    display: flex;
-    justify-content: center;
-    transition-duration: 1s;
-}
-
-.sectionOne img{
-    background-color: rgba(53,70,137,0.233);
-    border-radius: 10px;
-    transition: transform 0.3 ease-in-out;
-}
-.sectionOne img:hover{
-    background-color: rgba(8,212,238,255);
-    border-radius: 10px;
-    margin-bottom: 5px; 
-    transform: translateY(-10px);
-}
 
 }
-
-/*-- Section2 : Who we are -- */
-.imgWho{
-    width:100%;
-    height: fit-content;
-    padding-bottom: 5%;
-    padding-top: 3%;
-    background-color: rgba(10,25,84,255);
-    display: flex;
-    justify-content: flex-end;
-    gap:3%;
-}
-
-
-/* Tablette */
-@media (min-width:426px) and (max-width:768px){
-
-
-    }
-
 
     ::placeholder {
         font-size:10px;
@@ -372,12 +227,6 @@ body{
 .footerTop{
     width: 100%;
     font-size:10px;
-
-.bannerRight img{
-    width: 100%;
-    height: 100%;
-    padding-right:5%;
-    display: flex;
 }
 
 
@@ -393,12 +242,6 @@ body{
     width: 50px;
 }
 
-.introBulletWho {
-    width:100%;
-    margin:0;
-    color: #4f64ac;
-    display: flex;
-    padding-bottom: 4%;
 
 .iconLeftFooter p {
     font-size:10px;
@@ -406,14 +249,6 @@ body{
 
 .footerAboutUs p{
     font-size:8px;
-.getStarted{
-    width:120px;
-    height: 40px;
-    font-size: 15px;
-    color:white;
-    background-color: rgba(8,212,238,255);
-    border-radius: 30px;
-    border-style: none;
 }
 
 .footerAboutUs{
@@ -464,7 +299,6 @@ body{
     font-size: 8px;
 }
 }
-}
 
 /* Mobile L */
 @media (min-width:376px) and (max-width:425px){
@@ -479,96 +313,99 @@ body{
         align-items: center;
 
     }
-    .iconPartners{
-        width: 90%;
-        gap:15%;
 
     }
 }
 
 
-/* Mobile M */
-@media (max-width:375px) {
-    .textPartners h1{
-        font-size: 15px;
-    }
-.fa-ul {
-    margin:0;
-    padding: 0;
-    width:100%;
-    color: #4f64ac;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start ;
+.S3_TWO img {
+    width: 70px;
+    transition: transform 0.3s ease;
+}
 
-} 
+}
 
 .fa-ul li{
     list-style: none;
 
 }
 
-/* ---------------Media Querries-------------------- */
-/* Tablette */
-@media (min-width:426px) and (max-width:768px){
-    .imgWho{
-        padding-top: 10%;
-    }
+button {
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #0ad3ef;
+    border: none;
+    padding: 10%;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+}
 
 }
 
-/* Mobile L */
-@media (min-width:376px) and (max-width:425px){
-      .descriptionWho h1{
-        font-size: 15px;
-        line-height: 25px;
 
-    }
-    .descriptionWho p{
-        font-size: 10px;
-        line-height: 25px;
-    }
+} 
 
-    .fa-ul li{
-        font-size: 10px;
-        line-height: 20px; 
-}
-}
-}
-/* Mobile M */
-@media (max-width:375px) {
+
+.Section4 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    height: fit-content;
+    background-color: rgb(10, 25, 84);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
     
-
-
-.descriptionWho h1 {
-    font-size: 20px;
-    line-height: 25px;
-}
-.title {
-    font-size: 10px;
-
+    /* background-repeat: no-repeat;
+    background-position: left center; */
 }
 
-.introBulletWho{
-    font-size: 10px;
-    line-height: 15px;
+.Image_Back {
+    display: flex;
+    justify-content: center;
+    width: 22%;
+    transform: rotate(-5deg);
+}
+}
+}
+
+
+   
+}
+
+}
+
 
 
 }
 
-.fa-ul{
-    font-size: 10px;
-    line-height: 15px;
 
- 
+
 }
 
-.fa-ul img {
-    width: 10%;
+.S5_TWO {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    padding-left: 20%;
+    gap: 5%;
+    /* justify-content: space-between; - Mobile screen */
 }
 
-.imgWho{
-    padding-top: 8%;
+.S5_TWO div {
+    background-color: rgba(53, 70, 137, 0.233);
+    border-radius: 10%;
+    width: 150px;
+    height: auto;
+    padding: 5% 5% 5% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    
 }
 
 .contactUs{
