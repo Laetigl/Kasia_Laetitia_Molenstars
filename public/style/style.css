@@ -59,6 +59,7 @@ body {
     border-radius: 10%;
     width: 160px;
     padding: 30px 30px 20px 30px;
+    margin-bottom: 2.5%;
     
 }
 
@@ -93,3 +94,21 @@ button {
 }
 
 
+
+
+
+
+@media only screen and (min-width: 1440px) {
+    .Section_3 {
+        overflow: hidden;
+        margin-top: -7%;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .Section_3 {
+        height: 100vh;
+        margin-top: -7%;
+    }
+}
