@@ -92,6 +92,27 @@ body{
     display: flex;
     justify-content: center;
     padding:1%;
+    padding: 0;
+}
+
+/* ------------------------------- */
+/* Section1- Partners */
+
+.sectionOne{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.partners{
+    width: 100%;
+    margin:0;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background-color:rgba(10,25,84,255) ;
+    font-family: Roboto;
+
 }
 
 .iconSocial{
@@ -126,6 +147,24 @@ body{
     color: #4f64ac;
     font-size: 15px;
 }
+.textPartners h1{
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.iconPartners{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 6%;
+    padding-top: 3%;
+    background-color:rgba(10,25,84,255) ;
 
 
 .agreement{
@@ -213,6 +252,32 @@ body{
     }
     .newsletters h1 {
         font-size:10px;
+.iconPartners img{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    transition-duration: 1s;
+}
+
+.sectionOne img{
+    background-color: rgba(53,70,137,0.233);
+    border-radius: 10px;
+    transition: transform 0.3 ease-in-out;
+}
+.sectionOne img:hover{
+    background-color: rgba(8,212,238,255);
+    border-radius: 10px;
+    margin-bottom: 5px; 
+    transform: translateY(-10px);
+}
+
+
+
+/* Tablette */
+@media (min-width:426px) and (max-width:768px){
+
 
     }
 
@@ -312,4 +377,32 @@ body{
 .footerBottom{
     font-size: 8px;
 }
+}
+
+/* Mobile L */
+@media (min-width:376px) and (max-width:425px){
+    .textPartners h1{
+        font-size: 20px;
+    }
+
+    .partners{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .iconPartners{
+        width: 90%;
+        gap:15%;
+
+    }
+}
+
+
+/* Mobile M */
+@media (max-width:375px) {
+    .textPartners h1{
+        font-size: 15px;
+    }
 }
